@@ -1,0 +1,259 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: -11px 0px 0px 0px; /*T R B L*/
+  background-color: rgb(70, 70, 70);
+}
+a {
+  color: rgb(204, 204, 204)/*rgb(255, 233, 112)*/;
+}
+.div-menu {
+  width: 160px; /*30%;*/
+  height: 100%;
+  float: left;
+  background-image: url('images/header.png');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+.div-menu-long {
+  width: 160px; /*30%;*/
+  height: 150%;
+  float: left;
+  background-image: url('images/header.png');
+  background-repeat: repeat-y;
+  margin: 0px;
+}
+.div-page {
+  font-family: Roboto;
+  background-color: rgb(70, 70, 70);
+  color: rgb(255, 233, 112);
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+}
+.div-page-text {
+  margin-left: 30%;
+  padding-top: 2%;
+}
+.div-gxh1 { /* for menu */
+  width: 160px;
+  height: 100%;/*600px;*/
+}
+.taparea {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 80px;
+  background-color: rgb(153, 153, 153);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.taparea-program { /* tap area for 'Program' */
+  top: 210.14px;
+}
+.taparea-reg { /* tap area for 'Registration' */
+  top: 259.5px;
+}
+.taparea-part { /* tap area for 'Participants' */
+  top: 308.86px;
+}
+.taparea-log { /* tap area for 'Logistics' */
+  top: 358.22px;
+}
+.taparea-contact { /* tap area for 'Contact' */
+  top: 407.58px;
+}
+.div-logistics-text {
+  width: 60%;
+}
+.div-menu-buttons {
+  position: relative;
+  top: 50px;
+  left: -40%;
+  margin: 0px;
+}
+.div-r8hw { /* for KiDS and Meeting*/
+  position: absolute;
+  height: 53px;
+  /*text-align: left;*/
+  width: 300px;
+  font-family: Roboto;
+  color: rgb(204, 204, 204);
+  left: 1%;
+  font-size: 26px;
+  font-weight: bold;
+}
+.div-gpfs { /* for KiDS */
+  height: 55px;
+  width: 140px;
+  top: 5%;
+  /*left: -160px;*/
+  /*top: 272.5px;*/
+}
+.div-gpfs2 { /* for Meeting */
+  height: 55px;
+  width: 140px;
+  top: 90%;
+  /*left: -160px;*/
+  /*top: 272.5px;*/
+}
+.div-qh3o { /* buttons */
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 18px;
+  left: 0px;
+  top: 6px;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+}
+input[type=submit] {
+  border: 0px;
+  background-color: rgb(153, 153, 153);
+  font-family: Roboto;  
+  text-align: center;    
+  color: rgb(255, 255, 255);
+  cursor: pointer;      
+}
+input[type=text], textarea {
+  margin-left: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+hr {
+  color: rgb(255, 233, 112);      
+}
+table.registrationtable {
+  cellpadding: '0';
+  line-height: 2;
+}
+td {
+  font-size: 18px;
+  text-align: left;
+  vertical-align: center;
+  padding: 0px;    
+}
+iframe {
+  width: 40%;
+  height: 20%;
+  border: 0px;
+  font-weight: bold;
+}    
+/*.div-home {
+  -webkit-animation-name: animation-home;
+  -webkit-animation-duration: 1s;    
+  animation-name: animation-home;
+  animation-duration: 4s;    
+}
+@-webkit-keyframes animation-home {
+  0% {opacity: 0;}
+  100% {opacity: 1;}    
+}
+@keyframes animation-home {
+  0% {opacity: 0;}
+  100% {opacity: 1;}    
+}*/
+/*.animation-kids { for KiDS
+  animation: animation-kids-keyframes 0.5s linear 0s 1 normal forwards;
+}
+@keyframes animation-kids-keyframes {
+  0% {
+    left: 10%;
+    top: -10%;-35px;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    left: 10%;
+    top: 5%;15px;
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+}
+@-webkit-keyframes animation-kids-keyframes {
+  0% {
+    left: 10%;18px;
+    top: -10%;-35px;
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  100% {
+    left: 10%;18px;
+    top: 5%;15px;
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+}*/
+/*.animation-buttons { for buttons
+  animation: animation-buttons-keyframes 0.5s linear 1s 1 normal forwards;
+}
+@keyframes animation-buttons-keyframes {
+  0% {
+    left: -300px;
+    top: 10%;609px;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    animation-timing-function: ease-in-out;
+    background-color: rgb(153, 153, 153);
+  }
+  100% {
+    left: -60px;
+    top: 10%;549px;
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    animation-timing-function: ease-in-out;
+    background-color: rgb(153, 153, 153);
+  }
+}
+@-webkit-keyframes animation-buttons-keyframes {
+  0% {
+    left: -300px;
+    top: 10%;609px;
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-animation-timing-function: ease-in-out;
+    background-color: rgb(153, 153, 153);
+  }
+  100% {
+    left: -60px;
+    top: 10%;549px;
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-animation-timing-function: ease-in-out;
+    background-color: rgb(153, 153, 153);
+  }
+}*/
+/*.animation-meeting2015 { for meeting 2015
+  animation: animation-meeting2015-keyframes 0.5s linear 0.5s 1 normal forwards;
+}
+@keyframes animation-meeting2015-keyframes {
+  0% {
+    left: 10%;
+    top: 110%;272.5px;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    left: 10%;
+    top: 90%;272.5px;
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+@-webkit-keyframes animation-meeting2015-keyframes {
+  0% {
+    left: 10%;
+    top: 110%;272.5px;
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  100% {
+    left: 10%;
+    top: 90%;272.5px;
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+}*/

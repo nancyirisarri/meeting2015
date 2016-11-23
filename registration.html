@@ -1,0 +1,30 @@
+<h2>Please fill-in the following</h2>
+
+<form action='submit.php' method='post' id='form-reg' target='form-reg-results'>
+<table class="registrationtable">
+  <tr><td colspan='2'><hr></td></tr>
+  <tr><td>First name:</td><td><input type='text' name='first_name' size='30'></td></tr>
+  <tr><td>Last name:</td><td><input type='text' name='last_name' size='30'></td></tr>
+  <tr><td>Affiliation:</td><td><input type='text' name='affiliation' size='50'></td></tr>
+  <tr><td colspan='2'>When will you be present?</td></tr>
+  <tr><td colspan='2' style='padding-left:3%;'><input type='checkbox' name='present_th_top' value='true'>Thursday morning
+  <span style='padding-left:40px;'><input type='checkbox' name='present_th_bottom' value='true'>Thursday afternoon</span>
+  </td></tr>
+  <tr><td colspan='2' style='padding-left:3%;'><input type='checkbox' name='present_fr_top' value='true'>Friday morning
+  <span style='padding-left:65px;'><input type='checkbox' name='present_fr_bottom' value='true'>Friday afternoon</span>
+  </td></tr>
+  <tr><td colspan='2'>Will you be going to the dinner?</td></tr>
+  <tr><td colspan='2' style='padding-left:3%;'>
+  <input type='radio' name='present_dinner' value='yes' checked>yes
+  <input type='radio' name='present_dinner' value='no'>no
+  </td></tr>
+  <tr><td colspan='2'>If you are going to the dinner and have any dietary requirements please let us know:
+  </td></tr>
+  <tr><td colspan='2' style='padding-left:3%;'><textarea form='form-reg' name='dietary_req' id='dietary_req' rows='5' cols='35'></textarea>
+  </td></tr>
+  <tr><td colspan='2'><input type='submit' value='Send' name='register'>
+  </td></tr>
+</table>
+</form>
+
+<iframe name='form-reg-results' id='form-reg-results'><p>Your browser does not support iframes.</p></iframe>
